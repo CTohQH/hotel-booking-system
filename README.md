@@ -7,13 +7,6 @@ https://www.eclipse.org/downloads/
    - **Using Eclipse will be much easier to perfome testing compare to other compiler.**
    - The link below contains the guideline to complete the downloading process : https://www.eclipse.org/downloads/packages/installer
 
-2. Go to  this website to download VMware:
-https://www.vmware.com/info/workstation-player/evaluation
-   - **VMware is a vitual machine is a virtualization and cloud computing software provider.** 
-User can us VMware to gain asses to Windows10 to Windows 11.
-   - The link below contains the guideline to install and use VMware:
-https://www.youtube.com/watch?v=cygsGM5sNJo
-
 # Prerequisite
 **Junit4 and Jar files must be installed and set up properly**
 For the following process, please refer to **Set Up The Enviroment**.
@@ -73,9 +66,9 @@ Junit is a widely used testing framework for Java programming. It helps develope
 
 3.	Select the JUnit from the list. Then, click **[Next]**
 
-4. Select JUnit 4 and then **[Finish]**, You should see the JUnit library has been added into the project in the package explorer.
+4. 	Select JUnit 4 and then **[Finish]**, You should see the JUnit library has been added into the project in the package explorer.
 
-5. The **jar file** can be added during the creation of class using the wizard. If we want to add it later, right-click on project name in the package explorer and select confugure build path.
+5. 	The **jar file** can be added during the creation of class using the wizard. If we want to add it later, right-click on project name in the package explorer and select confugure build path.
 
 6.	Select Add External JARs at **right hand side.**
 
@@ -94,29 +87,7 @@ Unit testing is a software testing technique where individual components or func
 
 2.	To make the method will run in test, there must be an @Test before the method.
 
-3.	Example code:
-```java
-//test the setRoomsWishToBook
-    @Test
-    @Parameters({"guest, 1, 1", "normal, 2, 2", "VIP, 3, 3"})
-    public void setRoomWishToBookWithValid(String member_type, int count, int expectedResult) {
-        User u = new User("TestUser", member_type); // Create a User object with a name and member type
-        u.setRoomsWishToBook(count); 
-        assertEquals(expectedResult, u.getRoomsWishToBook()); 
-    }
-
- //test set name
-    @Test
-    @Parameters({"Jason,Jason","Emily,Emily"})
-    public void setNameWithValid(String name,String expectedResult)
-    {
-    	//User u = new User("TestUser", "member");
-    	u.setName(name);
-    	String actualResult = u.getName();
-    	assertEquals(expectedResult,actualResult);
-    }
-```
-4.	To view if the testing method is valid or invalid, we can click the green icon for run. Then it will show the result green color means valid or successful, red color means invalid or unsuccessful.
+3.	To view if the testing method is valid or invalid, we can click the green icon for run. Then it will show the result green color means valid or successful, red color means invalid or unsuccessful.
 
 ## Integration Test
 1.	The @RunWith(JUnitParamsRunner.class) annotation is used in JUnit testing to specify a custom runner class that will execute the test class. In this case, the JUnitParamsRunner is a runner provided by the JUnitParams library, which is used to support parameterized tests in JUnit.
@@ -141,15 +112,15 @@ There are other testing classes and you can explore them! Good Luck!!!
 Steps:
 1.	Navigate to the project directory
 -	Open command prompt
--	Use cd to navigate ‘SoftwareTestingAssignment’ directory
--	cd path\to\SoftwareTestingAssignment
+-	Use cd to navigate ‘Hotel’ directory
+-	cd path\to\Hotel
 
 2.	Create the ‘build.gradle’ file
 -	Use text editor like notepad to create the ‘build.gradle’ file
 -	Write the below code in the ‘build.gradle’ file
--	After done enter the code, save the file in the ‘Assignment’ directory
+-	After done enter the code, save the file in the ‘Hotel’ directory
 3.	Directory structure
--	Ensure the ‘SoftwareTestingAssignment’’ directory has the following structure
+-	Ensure the ‘Hotel’’ directory has the following structure
 -	Command for use check the project directory (dir build.gradle OR dir)
 4.	Run Gradle command
 -	gradle build

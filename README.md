@@ -40,7 +40,8 @@ Explanation:
 	4.	Build with Eclipse:
 	o	Import the Project: Imports the extracted project into the Eclipse workspace. Adjust the import path as needed.
 	o	Build the Project: Uses Eclipse command-line tools to build the project.
-	5.	List files:
+	5.      Export the file into runnable JAR file
+	6.	List files:
 	o	Lists files in the bin directory to verify that the JAR file was created successfully. 
 
 **Notes:**

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="my.edu.utar.BookingIntegrationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-08-10T18:42:33" hostname="KWVLAPTOP" time="0.593">
+  <properties/>
+  <testcase name="testSuccessfulBooking" classname="my.edu.utar.BookingIntegrationTest" time="0.424"/>
+  <testcase name="testGetRoomType_RewardUserWithNoRoomsAvailable" classname="my.edu.utar.BookingIntegrationTest" time="0.001"/>
+  <testcase name="testGetRoomType_NormalUserWithNoReward" classname="my.edu.utar.BookingIntegrationTest" time="0.001"/>
+  <testcase name="testWaitingList" classname="my.edu.utar.BookingIntegrationTest" time="0.002"/>
+  <testcase name="testGetRoomType_NormalUserWithReward" classname="my.edu.utar.BookingIntegrationTest" time="0.001"/>
+  <testcase name="testSuccessfulBooking" classname="my.edu.utar.BookingIntegrationTest" time="0.0"/>
+  <testcase name="testGetRoomType_RewardUserWithNoRoomsAvailable" classname="my.edu.utar.BookingIntegrationTest" time="0.001"/>
+  <testcase name="testGetRoomType_NormalUserWithNoReward" classname="my.edu.utar.BookingIntegrationTest" time="0.0"/>
+  <testcase name="testWaitingList" classname="my.edu.utar.BookingIntegrationTest" time="0.0"/>
+  <testcase name="testGetRoomType_NormalUserWithReward" classname="my.edu.utar.BookingIntegrationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

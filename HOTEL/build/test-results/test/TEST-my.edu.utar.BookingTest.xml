@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="my.edu.utar.BookingTest" tests="72" skipped="0" failures="0" errors="0" timestamp="2024-08-10T18:42:33" hostname="KWVLAPTOP" time="0.134">
+  <properties/>
+  <testcase name="[0] User, true, true, VIP, false (testSetBooking)" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="[1] User, true, true, Deluxe, false (testSetBooking)" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="[2] User, true, true, Standard, false (testSetBooking)" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="[3] User, true, true, Deluxe, false (testSetBooking)" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testUpdateRoomCounter" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testSearchUser_UserNotFound" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testSearchUser_UserFound" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testAddToWaitingList" classname="my.edu.utar.BookingTest" time="0.031"/>
+  <testcase name="testMaxRoomBookingForVIP" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testSearchUser_NullName" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="[0] User (testSetBooking_WithInvalidUser)" classname="my.edu.utar.BookingTest" time="0.002"/>
+  <testcase name="[1] User (testSetBooking_WithInvalidUser)" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="[2] User (testSetBooking_WithInvalidUser)" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="[3] null (testSetBooking_WithInvalidUser)" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testAddToWaitingListWithNullList" classname="my.edu.utar.BookingTest" time="0.004"/>
+  <testcase name="testCancelBooking_UserNotFound" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testGetRoomType" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testSearchUser_NullUserList" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="[0] User, true, true, VIP, false (testSetBooking)" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="[1] User, true, true, Deluxe, false (testSetBooking)" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="[2] User, true, true, Standard, false (testSetBooking)" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="[3] User, true, true, Deluxe, false (testSetBooking)" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testUpdateRoomCounter" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testSearchUser_UserNotFound" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testSearchUser_UserFound" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testAddToWaitingList" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testMaxRoomBookingForVIP" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testSearchUser_NullName" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="[0] User (testSetBooking_WithInvalidUser)" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="[1] User (testSetBooking_WithInvalidUser)" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="[2] User (testSetBooking_WithInvalidUser)" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="[3] null (testSetBooking_WithInvalidUser)" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testAddToWaitingListWithNullList" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testCancelBooking_UserNotFound" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testGetRoomType" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testSearchUser_NullUserList" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="[0] User, true, true, VIP, false (testSetBooking)" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="[1] User, true, true, Deluxe, false (testSetBooking)" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="[2] User, true, true, Standard, false (testSetBooking)" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="[3] User, true, true, Deluxe, false (testSetBooking)" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testUpdateRoomCounter" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testSearchUser_UserNotFound" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testSearchUser_UserFound" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testAddToWaitingList" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testMaxRoomBookingForVIP" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testSearchUser_NullName" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="[0] User (testSetBooking_WithInvalidUser)" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="[1] User (testSetBooking_WithInvalidUser)" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="[2] User (testSetBooking_WithInvalidUser)" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="[3] null (testSetBooking_WithInvalidUser)" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testAddToWaitingListWithNullList" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testCancelBooking_UserNotFound" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testGetRoomType" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testSearchUser_NullUserList" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="[0] User, true, true, VIP, false (testSetBooking)" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="[1] User, true, true, Deluxe, false (testSetBooking)" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="[2] User, true, true, Standard, false (testSetBooking)" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="[3] User, true, true, Deluxe, false (testSetBooking)" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testUpdateRoomCounter" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testSearchUser_UserNotFound" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testSearchUser_UserFound" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testAddToWaitingList" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testMaxRoomBookingForVIP" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testSearchUser_NullName" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="[0] User (testSetBooking_WithInvalidUser)" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="[1] User (testSetBooking_WithInvalidUser)" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="[2] User (testSetBooking_WithInvalidUser)" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="[3] null (testSetBooking_WithInvalidUser)" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testAddToWaitingListWithNullList" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testCancelBooking_UserNotFound" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <testcase name="testGetRoomType" classname="my.edu.utar.BookingTest" time="0.0"/>
+  <testcase name="testSearchUser_NullUserList" classname="my.edu.utar.BookingTest" time="0.001"/>
+  <system-out><![CDATA[User list is null! No users added to the waiting list.
+User not found in the waiting list. No booking cancelled.
+User list is null! No users added to the waiting list.
+User not found in the waiting list. No booking cancelled.
+User list is null! No users added to the waiting list.
+User not found in the waiting list. No booking cancelled.
+User list is null! No users added to the waiting list.
+User not found in the waiting list. No booking cancelled.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

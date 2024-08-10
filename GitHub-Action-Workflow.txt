@@ -1,0 +1,44 @@
+name: Build and Import Project with Eclipse
+
+on:
+	push:
+		branches:
+			- main # Trigger this workflow on push to the main branches
+			
+
+jobs:
+	build:
+		runs-on: ubuntu-latest
+		
+		steps:
+		-names: Checkout Code
+		  uses: actions/checkout@v3
+
+		
+		- 	name: Download Project Archive
+			run: |
+				wget https://example.com/path/to/your/archive.zip -0 project-archive.zip
+			
+		-	name: Extract Project Archieve
+			run: |
+				unzip project-archieve.zip -d /path/to/extracted/project-archieve
+			
+		-	name: Install Eclipse
+			run: |
+				wget https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-06/R/eclipse-java-2023-06-R-linux-gtk-x86_64.tar.gz	-0 eclipse.tar.gz
+				tar	-xzf eclipse.tar.gz
+				sudo mv eclipse /opt/eclipse
+				sudo ln -s /opt/eclipse/eclipse /user/local/bin/eclipse
+				
+		-	name: Build with Eclipse
+			run: |
+				# Import the project into Eclipse workspace
+				/user/loacl/bin.eclipse -nosplash -application org.eclipse.core.commands.client -consoleLog -data /tmp/workspace -import /path/to/extracted/project-archieve
+				
+				# Build the project
+				/user/local/bin/eclipse -nosplash -application org.eclipse.core.runtime.headless -data /tmp/works[ace -application org.eclipse.jdt.core.JavaBuilder
+				
+		-	name: List files
+			run: |
+				Is -1 /path/to/extracted/project/bin
+				

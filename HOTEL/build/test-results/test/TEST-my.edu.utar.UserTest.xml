@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="my.edu.utar.UserTest" tests="44" skipped="0" failures="0" errors="0" timestamp="2024-08-10T18:42:33" hostname="KWVLAPTOP" time="0.074">
+  <properties/>
+  <testcase name="testUpdateRoomBooked" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testGetName" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetNameForNull" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetMemberTypeInvalidInput" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testGetMemberType" classname="my.edu.utar.UserTest" time="0.001"/>
+  <testcase name="testSetMemberType" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetReward" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testGetReward" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetName" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetNameForEmptyValue" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testGetRoomBooked" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testUpdateRoomBooked" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testGetName" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetNameForNull" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetMemberTypeInvalidInput" classname="my.edu.utar.UserTest" time="0.001"/>
+  <testcase name="testGetMemberType" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetMemberType" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetReward" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testGetReward" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetName" classname="my.edu.utar.UserTest" time="0.001"/>
+  <testcase name="testSetNameForEmptyValue" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testGetRoomBooked" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testUpdateRoomBooked" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testGetName" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetNameForNull" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetMemberTypeInvalidInput" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testGetMemberType" classname="my.edu.utar.UserTest" time="0.001"/>
+  <testcase name="testSetMemberType" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetReward" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testGetReward" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetName" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetNameForEmptyValue" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testGetRoomBooked" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testUpdateRoomBooked" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testGetName" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetNameForNull" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetMemberTypeInvalidInput" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testGetMemberType" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetMemberType" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetReward" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testGetReward" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetName" classname="my.edu.utar.UserTest" time="0.0"/>
+  <testcase name="testSetNameForEmptyValue" classname="my.edu.utar.UserTest" time="0.001"/>
+  <testcase name="testGetRoomBooked" classname="my.edu.utar.UserTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,59 @@
+plugins {
+    id 'java'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+sourceSets {
+    main {
+        resources {
+            srcDir 'src/main/resources'
+        }
+    }
+}
+dependencies {
+    // Add JUnit dependency for testing
+    testImplementation 'junit:junit:4.13.2'
+    implementation files('libs/byte-buddy-1.12.8.jar')
+    implementation files('libs/byte-buddy-agent-1.12.8.jar')
+    implementation files('libs/JUnitParams-1.0.2.jar')
+    implementation files('libs/mockito-core-4.4.0.jar')
+    implementation files('libs/objenesis-3.2.jar')
+}
+
+// Define a task to Run a Test
+task RunTest(type: Test) {
+    // Specify the directory containing test classes
+    testClassesDirs = sourceSets.test.output.classesDirs
+    // Optionally configure test options
+    testLogging {
+     // Configure which events to log during test execution
+     events 'passed', 'skipped', 'failed'
+    }
+}
+
+// Define a task to build an executable JAR file
+task BuildJar(type: Jar) {
+    manifest {
+        attributes 'Main-Class': 'com.example.Main' // Set the main class for the
+        jar
+    }
+    from sourceSets.main.output // Include compiled classes in the JAR
+    archiveBaseName = 'jar' // Name of the JAR file
+    destinationDirectory = file('build/libs') // Output directory for the JAR file
+}
+// Task to copy resource files to a specific directory
+task copyResources(type: Copy) {
+    from 'src/main/resources'
+    into 'build/resources/main'
+}
+// Task to create a zip archive of the project
+task createZip(type: Zip) {
+    from 'build'
+    archiveFileName = 'Assignment1.zip'
+    destinationDirectory = file('build/distributions')
+}

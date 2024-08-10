@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="my.edu.utar.WaitingListTest" tests="56" skipped="0" failures="0" errors="0" timestamp="2024-08-10T18:42:33" hostname="KWVLAPTOP" time="0.081">
+  <properties/>
+  <testcase name="testAddNormalUserToWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testRemoveNormalUserFromWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testRemoveVIPUserFromWaitingList" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testAddVIPUserToWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testGetNormalWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testGetNonMemberWaitingList" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testAddNonMemberUserToWaitingList" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testAddWaitingListForInvalidMemberType" classname="my.edu.utar.WaitingListTest" time="0.002"/>
+  <testcase name="testRemoveWaitingListForInvalidMemberType" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testRemoveWaitingListForNullUser" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testRemoveNonMemberUserFromWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testAddWaitingListForNullUser" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testGetWaitingListForInvalidMemberType" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testGetVIPWaitingList" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testAddNormalUserToWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testRemoveNormalUserFromWaitingList" classname="my.edu.utar.WaitingListTest" time="0.003"/>
+  <testcase name="testRemoveVIPUserFromWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testAddVIPUserToWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testGetNormalWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testGetNonMemberWaitingList" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testAddNonMemberUserToWaitingList" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testAddWaitingListForInvalidMemberType" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testRemoveWaitingListForInvalidMemberType" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testRemoveWaitingListForNullUser" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testRemoveNonMemberUserFromWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testAddWaitingListForNullUser" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testGetWaitingListForInvalidMemberType" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testGetVIPWaitingList" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testAddNormalUserToWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testRemoveNormalUserFromWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testRemoveVIPUserFromWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testAddVIPUserToWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testGetNormalWaitingList" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testGetNonMemberWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testAddNonMemberUserToWaitingList" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testAddWaitingListForInvalidMemberType" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testRemoveWaitingListForInvalidMemberType" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testRemoveWaitingListForNullUser" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testRemoveNonMemberUserFromWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testAddWaitingListForNullUser" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testGetWaitingListForInvalidMemberType" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testGetVIPWaitingList" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testAddNormalUserToWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testRemoveNormalUserFromWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testRemoveVIPUserFromWaitingList" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testAddVIPUserToWaitingList" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testGetNormalWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testGetNonMemberWaitingList" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testAddNonMemberUserToWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testAddWaitingListForInvalidMemberType" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testRemoveWaitingListForInvalidMemberType" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testRemoveWaitingListForNullUser" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testRemoveNonMemberUserFromWaitingList" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testAddWaitingListForNullUser" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <testcase name="testGetWaitingListForInvalidMemberType" classname="my.edu.utar.WaitingListTest" time="0.0"/>
+  <testcase name="testGetVIPWaitingList" classname="my.edu.utar.WaitingListTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

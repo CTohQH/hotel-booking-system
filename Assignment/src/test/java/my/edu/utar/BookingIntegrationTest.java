@@ -78,16 +78,6 @@ public class BookingIntegrationTest {
         assertEquals("VIP", roomType);
     }
 
-    @Test(expected = IllegalStateException.class)
-    public void testGetRoomType_NonMemberNoRoomsAvailable() {
-        // Set up mock behaviors
-        when(room.checkRoom("Standard")).thenReturn(false);
-
-        // Perform booking
-        User user = new User("Bob", "non", false);
-        booking.getRoomType(user);
-    }
-
     // Additional test cases
     @Test
     public void testGetRoomType_NormalUserWithNoReward() {

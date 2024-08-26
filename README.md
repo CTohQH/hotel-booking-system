@@ -53,7 +53,7 @@ This workflow handles downloading, extracting, importing, and building your Java
 
 # Test Description
 
-Junit is a widely used testing framework for Java programming. It helps developers swrite and run tests for their code, ensuring that individual units of functionality work as intended.
+JUnit is a widely used testing framework for Java programming. It helps developers to write and run tests for their code, ensuring that individual units of functionality work as intended.
 
 ## Installed jar file
 1.	Provide the jar file
